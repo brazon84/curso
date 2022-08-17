@@ -1,0 +1,67 @@
+@import '../partials/globals/_variables';
+
+main {
+    background-color: rgb(235, 228, 228);
+    width: 100%; //ancho// 
+    padding-bottom: 30px; //distanciado// 
+    margin-top: 140px; //entre el //  
+
+    h1 {
+        margin-top: 90px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    article {
+        .div-container {
+            width: 100%;
+            margin: 0 auto;
+            border-radius: 5px;
+            @include espaciado;
+            .div-card-1,
+            .div-card-2,
+            .div-card-3,
+            .div-card-4,
+            .div-card-5,
+            .div-card-6,
+            .div-card-7,
+            .div-card-8,
+            .div-card-9,
+            .div-card-10 {
+                background-color: rgb(242, 227, 207);
+                margin: 7px;
+                border: 1px solid black;
+                border-radius: 5px;
+                width: 220px; //ancho//  
+                padding: 4px;
+                height: 220px;
+
+                &hover {
+                    background-color: powderblue;
+                    transition: background-color 1s;
+                    //alpasarelmouseresalte//box-shadow: 5px 5px 5px black;
+                    //sombradelacaja//:;
+                    box-shadow: 5px 5px 5px black;
+}
+
+                h3 {
+                    text-align: center;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+                p {
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                .div-img {
+                    margin-top: 20px;
+                    text-align: center;
+                }
+
+            }
+        }
+
+    }
+}

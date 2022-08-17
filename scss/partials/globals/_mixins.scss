@@ -1,0 +1,9 @@
+@mixin espaciado {
+    display: flex; //flexbox// 
+    justify-content: space-around; //justifica el contenido//  
+    flex-direction: row; //voltea el contenido// 
+    flex-wrap: wrap; //adapta el contenido a la vista// 
+   // justify-content: flex-start; //le da la vuelta al contenido// 
+    
+}
+
